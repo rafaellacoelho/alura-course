@@ -1,0 +1,11 @@
+body {
+  background: #CCC;
+}
+
+p {
+  text-align: center;
+}
+
+p em strong {
+  color: #FF0000;
+}
