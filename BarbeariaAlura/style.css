@@ -33,6 +33,13 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* PAGINA PRODUTO  */
+
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -76,6 +83,25 @@ nav ul li a:hover {
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+/* PAGINA CONTATO  */
+
+form {
+  margin: 40px 0;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
 
 footer {
