@@ -1,3 +1,7 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: #BBBBBB;
   padding: 20px 0;
@@ -33,11 +37,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-main {
-  width: 940px;
-  margin: 0 auto;
-}
-
 /* PAGINA HOME  */
 
 .banner {
@@ -49,6 +48,13 @@ main {
   font-size: 2rem;
   margin-bottom: 1rem;
   clear: left;
+}
+
+.principal {
+  width: 940px;
+  margin: 0 auto;
+  padding: 3rem 0;
+  background: #FEFEFE;
 }
 
 .principal .utensilios {
@@ -69,8 +75,71 @@ main {
   font-style: italic; 
 }
 
+.mapa {
+  padding: 3rem 0;
+  background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+  margin: 2rem;
+  text-align: center;
+}
+
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.beneficios {
+  padding: 3rem 0;
+  background: #888888;
+}
+
+.conteudo-beneficios {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.conteudo-beneficios::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.lista-beneficios {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.itens {
+  line-height: 1.5;
+  list-style-type:symbols('*');
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.itens:before {
+  content: "★";
+}
+
 .imagem-beneficios {
   width: 60%;
+  float: right;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.3;
+}
+
+.video {
+  width: 560px;
+  margin: 2rem auto;
+  clear: right;
 }
 
 /* PAGINA PRODUTO  */
