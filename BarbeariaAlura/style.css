@@ -192,7 +192,8 @@ nav ul li a:hover {
 /* PAGINA CONTATO  */
 
 form {
-  margin: 40px 0;
+  width: 940px;
+  margin: 40px auto;
 }
 
 form label, 
@@ -230,6 +231,11 @@ form legend {
   background: #FF8C00;
 }
 
+.table-container {
+  width: 940px;
+  margin: 0 auto;
+}
+
 table {
   margin: 20px 0 40px;
 }
@@ -255,4 +261,43 @@ footer .copyright {
   color: #FFFFFF;
   font-size: 13px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video,
+  .produtos {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-beneficios,
+  .imagem-beneficios {
+    width: 100%;
+  }
+
+  .produtos li {
+    width: 80%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  form,
+  .table-container {
+    width: 80%;
+  }
+
+  .input-padrao {
+    width: 70%;
+  }
 }
